@@ -22,7 +22,7 @@ Puede descargar una copia del proyecto mediante el linK del repositorio https://
 -  ###### CONJUGADA DE UNA MATRIZ /VECTOR: Esta operacion consiste en cambiar por el signo contrario solamente la parte imaginaria de la matriz.
   
 
--  ###### ADJUNTA(daga) DE UNA MATRIZ/ VECTOR: se debe sacar los cofactores de la matriz/vector, revisar los signos y a lo obtenido aplicar la traspuesta 
+-  ###### ADJUNTA(daga) DE UNA MATRIZ/ VECTOR: se debe aplicar la conjugada  y a lo obtenido aplicar la traspuesta 
  
 
 -  ###### PRODUCTO DE DOS MATRICES : Consiste en multiplicar los elementos de las filas (primera matriz) por las columnas de la (segunda matriz) y sumar los resultados.

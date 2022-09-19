@@ -100,37 +100,38 @@ def adjoint(mati):
 
 
 #11. Producto de dos matrices (de tamaños compatibles)
-def multiplicacion(mat1, mat2):
-    '''se reciben dos matrices y retorna una matriz con el resultado de la multiplicacion ente las matrices suministradas 
-    (matriz, matriz) -> matriz con el resultado de las multiplicaciones
-    '''
-    if len(mat1) == len(mat2[0]):
-        mat_mult = []
-        for i in range(len(mat1)):
-            vect_mult = []
-            for j in range(len(mat2[0])):
-                multi = 0
-                for k in range(len(mat2)):
-                    multi += mat1[i][j]*mat2[j][i]
-                vect_mult.append(multi)
-            mat_mult.append(vect_mult)
-        return mat_mult
-    else:
-        print("No puedo calcular el producto por la incompatibilidad de las filas y columnas")
+def multiplicacion (mat1,mat2):
+    row1, col1 = len( mat1 ),len( mat1[ 0 ] )
+    row2, col2 =  len( mat2 ), len( mat2[ 0 ] )
+     
+    if ( col1 == row2 ):
+        answ = [ [  ( 0,0 )  for t in range( col2 ) ] for x in range( row1 ) ]
+        for i in range( row1 ):
+            for j in range( col2 ): 
+                current = ( 0, 0 ) 
+                for k in range( row2 ):
+                    mult =  lc.multi( mat1[ i ][ k ], mat2[ k ][ j ]  ) 
+                    current =  lc.suma( current , mult )    
+                answ[ i ][ j ]  = current
+        return answ
+    print("Las dimensiones de las matrices, no son los adecuados para su multiplicacion")
 
 
 #12. Función para calcular la "acción" de una matriz sobre un vector.
-def accion(vec1, vec2):
-    fila = len(vec1)
-    columna = len(vec1[0])
-    mati = [(0, 0)] * columna
-    respu = [mati] * fila
-    for j in range(fila):
-        mati = [(0, 0)] * columna
-        respu[j] = mati
-        for k in range(columna):
-            respu[j][k] = lc.multi(vec1[j][k], vec2[j][k])
-    return respu
+def accion( mati, vector ):
+    fila, col  = len( mati ), len( mati [ 0 ] )
+    tamaño = len( vector )
+
+    if  ( col == tamaño ):
+        answ = [ False for c in range( fila  ) ]
+        for i in range( fila ):
+            And = True
+            for j in range( col ):
+                And = mati[ i ][ j ] and vector[ j ]  
+                answ [ i ] = answ[ i ] or And 
+        return answ 
+    print("Las dimensiones de las matrices, no son los adecuados para su multiplicacion")
+
 
 #13. Producto interno de dos vectores
 def dot_prod(vec1, vec2):

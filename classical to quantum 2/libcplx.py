@@ -5,10 +5,10 @@ import math
 
 #OPERACION SUMA 
 #ejemplo entrada 2+5,4+6
-def suma(num1,num2):
-    sumareal = num1[0] + num2[0]
-    sumaimag = num1[1] + num2[1]
-    return(sumareal,sumaimag)
+def suma( complexNumber1, complexNumber2 ):
+	answ = [ complexNumber1[ 0 ] + complexNumber2[ 0 ],
+			 complexNumber1[ 1 ] + complexNumber2[ 1 ] ]
+	return answ
 #print(suma((2,3),(5,6)))
 
 #OPERACION RESTA
@@ -64,3 +64,4 @@ def cart_polar(num):
 def fase(num):
     angulo = math.atan(num[1]/ num[0])
     return(angulo)
+

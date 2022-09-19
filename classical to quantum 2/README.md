@@ -10,48 +10,20 @@ Puede descargar una copia del proyecto mediante el linK del repositorio https://
 
 -  ###### PALABRAS CLAVE:
     imaginemos la rrepresentacion de un grafo 
-    ![image](https://user-images.githubusercontent.com/111905625/190960992-5657c524-eae3-4d26-9054-c638ac1db3dd.png)
+    
+    
+    ![image](https://user-images.githubusercontent.com/111905625/190961122-81af77b4-f466-40dd-aee5-96973a89a08e.png)g)
 
-    1) Nodo= caja
+    1) Vertice o Nodo = caja
     2) Peso arco = cantidad de canicas que se desplazan
-    3) arcos= direccion hacia donde se desplazan las canicas
+    3) Aristas = direccion hacia donde se desplazan las canicas
+    4) Particulas= canicas
    
--  ###### MULTIPLICACION DE UN ESCALAR POR UN VECTOR: Para realizar dicha multiplicacion se debe multiplicar el escalar por cada termino del vector.
+-  ###### REGLAS: 
+    1) La sumatoria de Particulas debe ser el mismo.
+    2) El peso del arco de un nodo a otro  debe sumar  1 exactamente, a excepcion de que el movimiento no se origine en el nodo
+    3) se debe establecer un estado inicial el cual es un vector con las mismas dimensiones de la fila de la matriz 
   
--  ###### ADICION DE MATRICES : consiste en sumar componente a componente los elementos de las matrices suministradas por el usuario
- 
--  ###### INVERSA (aditiva ) DE UNA MATRIZ : Esta operacion consiste en cambiar por el signo contrario solamente la parte imaginaria del numero complejo 
-
--  ###### MULTIPLICACION DE UN ESCALAR POR UNA MATRIZ:  Para realizar dicha multiplicacion se debe multiplicar el escalar por cada termino de la matriz.
-   
--  ###### TRANSPUESTA DE UNA MATRIZ/VECTOR: Esta operacion consiste en cambiar las filas por las columnas.
-  
-
--  ###### CONJUGADA DE UNA MATRIZ /VECTOR: Esta operacion consiste en cambiar por el signo contrario solamente la parte imaginaria de la matriz.
-  
-
--  ###### ADJUNTA(daga) DE UNA MATRIZ/ VECTOR: se debe sacar los cofactores de la matriz/vector, revisar los signos y a lo obtenido aplicar la traspuesta 
- 
-
--  ###### PRODUCTO DE DOS MATRICES : Consiste en multiplicar los elementos de las filas (primera matriz) por las columnas de la (segunda matriz) y sumar los resultados.
-
-
--  ###### PRODUCTO INTERNO DE DOS VECTORES: Consiste en multiplicar los componentes de los vectores posicion a posicion y posteriormente sumar los resultados obtenidos
-
--  ###### NORMA DE UN VECTOR: Consiste en elevar al cuadrado  unicamente los numeros del vector, omitiendo la "i" solamente, es decir la parte imaginaria 
- 
-
-
--  ###### DISTANCIA ENTRE DOS VECTORES: Consiste en restar los vectores componente a componente y luego a el valor obtenido se debe realizar la norma 
-
-
--  ###### REVISAR SI UNA MATRIZ ES UNITARIA: ES  unitaria si tiene inversa igual a su traspuesta conjugada.  Es decir debe satisfacer la siguiente condicion: 
-    U • U* = U* • U =I
-
--  ###### REVISAR SI UNA MATRIZ ES HERMITANIA: Es hermitania si la matriz es cuadrada  y debe satisfacer el hecho de ser igual a su transpuesta conjugada.
-   A = A*
-
-
   
 ##### PREREQUISITOS 
 En cuanto a los prerequisitos se debe tener el entorno de PyCharm, tambien se debe crear una cuenta en GitHub, pues alli se creara el repositorio que contendra principalmente la libreria, las pruebas de la misma y el read_me.

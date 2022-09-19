@@ -1,4 +1,5 @@
-# LIBRERIA OPERACIONES CON VECTORES COMPLEJOS 
+# LIBRERIA SALTO DE LO CLASICO A LO CUANTICO 
+
 ### _Creado por Saray Alieth Mendivelso Gonzalez_
 La presente librería desarrollada en el lenguaje python le proporcionara una serie de operaciones con Vectores complejos, los cuales se representan mediante la forma [a + bi] donde a es la parte real y b la imaginaria. 
 

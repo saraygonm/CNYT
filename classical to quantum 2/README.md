@@ -1,13 +1,20 @@
 # LIBRERIA SALTO DE LO CLASICO A LO CUANTICO 
 
-### _Creado por Saray Alieth Mendivelso Gonzalez_
-La presente librería desarrollada en el lenguaje python le proporcionara una serie de operaciones con Vectores complejos, los cuales se representan mediante la forma [a + bi] donde a es la parte real y b la imaginaria. 
+### _Creada por Saray Alieth Mendivelso Gonzalez_
+La presente librería desarrollada en el lenguaje python le proporcionara una simulacion en cuanto al salto de lo clasico a lo cuantico, mediante un experimento de canicas.
 
-Puede descargar una copia del proyecto mediante el linK del repositorio https://github.com/saraygonm/CNYT
-###### OPERACIONES DE LA LIBRERIA DE VECTORES COMPLEJOS 
--  ###### SUMA VECTORES: esta operacion consta de sumar los terminos semejantes de cada uno de los vectores, es decir por un lado se efectua la suma de la parte real y por otro lado la parte imaginaria entre los vectores ingresados
+Puede descargar una copia del proyecto mediante el linK del repositorio https://github.com/saraygonm/CNYT/tree/master/classical%20to%20quantum%202
 
--  ###### INVERSO(aditivo): Esta operacion consiste en cambiar por el signo contrario tanto de la parte real como de la parte imaginaria.
+###### EXPLICACION DETALLADA DEL EXPERIMENTO 
+-  ###### INICIO: Se colocaran diferentes cajas en donde se situaran n numero de canicas, las cuales se desplazaran entre las mismas cajas una cierta cantidad suminitrada por el usuario en un determinado lapso de tiempo 
+
+-  ###### PALABRAS CLAVE:
+    imaginemos la rrepresentacion de un grafo 
+    ![image](https://user-images.githubusercontent.com/111905625/190960992-5657c524-eae3-4d26-9054-c638ac1db3dd.png)
+
+    1) Nodo= caja
+    2) Peso arco = cantidad de canicas que se desplazan
+    3) arcos= direccion hacia donde se desplazan las canicas
    
 -  ###### MULTIPLICACION DE UN ESCALAR POR UN VECTOR: Para realizar dicha multiplicacion se debe multiplicar el escalar por cada termino del vector.
   

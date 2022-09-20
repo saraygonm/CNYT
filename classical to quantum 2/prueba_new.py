@@ -112,8 +112,7 @@ class Test_libcplx(unittest.TestCase):
        
         estado_inicial = [[1, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
 
-        res = lcp.accion(lcp.multipleslitexperiment_cuantico(matriz_doble_rendija[:],
-                                                      estado_inicial[:], 2),  estado_inicial)
+        res = lcp.accion(lcp.multipleslitexperiment_cuantico(matriz_doble_rendija[:], estado_inicial[:], 2),  estado_inicial)
         lcp.grafico(res)
 
 if __name__ == '__main__':

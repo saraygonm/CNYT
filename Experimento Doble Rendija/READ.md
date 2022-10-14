@@ -56,6 +56,8 @@ Puede descargar una copia del proyecto mediante el linK del repositorio https://
 
 ##### EXPLICACION DEL EXPERIMENTO
 Se debe hacer pasar  un haz de luz proporcionado por  el lasér a travez de la doble renfija (aluminio con aberturasunidas) obteniendo como resultado un patron de interferencia denotado por la matriz: 
+
+
 ![](https://user-images.githubusercontent.com/53798019/76541799-1de71200-6452-11ea-9ea0-272be402f2b5.png)
 
 Esto ocurre debido a que el el electron que viaja en el haz de luz  se lanza y choca con la superficie como una particula, aunque en su trayecto este va superpuesto como una onda, atravesando asi las dos rendijas

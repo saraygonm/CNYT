@@ -58,7 +58,7 @@ Puede descargar una copia del proyecto mediante el linK del repositorio https://
 Se debe hacer pasar  un haz de luz proporcionado por  el lasér a travez de la doble renfija (aluminio con aberturasunidas) obteniendo como resultado un patron de interferencia denotado por la matriz: 
 
 
-![]([https://user-images.githubusercontent.com/53798019/76541799-1de71200-6452-11ea-9ea0-272be402f2b5.png](https://scontent.xx.fbcdn.net/v/t1.15752-9/311052753_424862509719057_8899732825946310809_n.png?stp=dst-png_p228x119&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHLKvFV1lEksbR-3fY3oF-L9-Hl3wBXO8334eXfAFc7zZ8DyEhtrMwLrcgSOQneQMSh7GceVIDGj7ra4aUhVFdC&_nc_ohc=oeYV98NS_McAX-BE0P3&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTf-g5vwiqT4ktSEkAwsiecAd33lT7ihJ63PqDTOSJdIw&oe=636EC3F8))
+![]([https://user-images.githubusercontent.com/53798019/76541799-1de71200-6452-11ea-9ea0-272be402f2b5.png](https://scontent.xx.fbcdn.net/v/t1.15752-9/311052753_424862509719057_8899732825946310809_n.png?stp=dst-png_p228x119&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHLKvFV1lEksbR-3fY3oF-L9-Hl3wBXO8334eXfAFc7zZ8DyEhtrMwLrcgSOQneQMSh7GceVIDGj7ra4aUhVFdC&_nc_ohc=oeYV98NS_McAX-BE0P3&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTf-g5vwiqT4ktSEkAwsiecAd33lT7ihJ63PqDTOSJdIw&oe=636EC3F8)
 
 Esto ocurre debido a que el el electron que viaja en el haz de luz  se lanza y choca con la superficie como una particula, aunque en su trayecto este va superpuesto como una onda, atravesando asi las dos rendijas
 

@@ -62,6 +62,8 @@ Se debe hacer pasar  un haz de luz proporcionado por  el lasér a travez de la d
 
 Esto ocurre debido a que el el electron que viaja en el haz de luz  se lanza y choca con la superficie como una particula, aunque en su trayecto este va superpuesto como una onda, atravesando asi las dos rendijas
 
+Video del experimento: https://www.youtube.com/watch?v=MWTNRSqo0dA
+
 De igual gracias a la libreria podemos calcular ciertas operaciones en la ejecucion del experimento. Para mas informacion de la libreria remitirse al siguiente link:
 https://github.com/saraygonm/CNYT/tree/master/classical%20to%20quantum%202
 

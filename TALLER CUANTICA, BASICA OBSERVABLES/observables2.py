@@ -43,9 +43,9 @@ def transicion(vec1 ,vec2):
     '''Funcion que calcula la transicion entre un el vecto uno al dos'''
     return dot_prod(vec1,vec2)  
 
-vec1= normalizacion([[1,4], [-3, -2], [1, 1], [3, 4], [5, 2], [-1, 3], [0, -1], [0, 1], [2, -4], [-1, -1]])
-vec2= normalizacion([[2, 2], [3, 6], [-8,-4], [-1, -2], [3, -5], [-6, 4], [0, 1], [2, -4], [0, 1], [1, 3]])
-resp = transicion(vec1,vec2)
+#vec1= normalizacion([[1,4], [-3, -2], [1, 1], [3, 4], [5, 2], [-1, 3], [0, -1], [0, 1], [2, -4], [-1, -1]])
+#vec2= normalizacion([[2, 2], [3, 6], [-8,-4], [-1, -2], [3, -5], [-6, 4], [0, 1], [2, -4], [0, 1], [1, 3]])
+#resp = transicion(vec1,vec2)
 #print(resp)
 
 
@@ -54,7 +54,7 @@ def probability(vector, position):
     longi = longitud_vector(vector)
     if (0 <= position < len(vector)):
         return (modulo(vector[position])**2 / longi**2) 
-vector = [[-2,3],[5,5],[8,3],[4,9]]
+#vector = [[-2,3],[5,5],[8,3],[4,9]]
 #print(probability(vector,2))
 
 
@@ -99,9 +99,9 @@ def variance(psi, omega):
     varianza = multiplicaMat(delta_1, delta_1)
     return Matriz(varianza,psi )
  
-psi = normalizacion([[math.sqrt(2)/2,0], [0,math.sqrt(2)/2]])
-omega = [[[1,0],[-1,-1] ], [ [1,1],[2,1]]]
-print(variance(psi,omega))
+#psi = normalizacion([[math.sqrt(2)/2,0], [0,math.sqrt(2)/2]])
+#omega = [[[1,0],[-1,-1] ], [ [1,1],[2,1]]]
+#print(variance(psi,omega))
 
 def describir(pssi,mati):
     '''Funcion que describe un observable'''
@@ -110,22 +110,8 @@ def describir(pssi,mati):
         return[variance(pssi,mati),mean]
     return None
 
-pssi = normalizacion([[math.sqrt(2)/2,0],[0,math.sqrt(2)/2]])
-omega = [[[-1,0],[0,-1]], [[1,0],[0,1]]]
-print(describir(pssi,omega))
+#pssi = normalizacion([[math.sqrt(2)/2,0],[0,math.sqrt(2)/2]])
+#omega = [[[-1,0],[0,-1]], [[1,0],[0,1]]]
+#print(describir(pssi,omega))
 
-def numpy_observables(mati):
-    """Funcion que lee de la libreria numpy los vectores propios  a la presente libreria"""
-    res = []
-    for i in range(len(mati)):
-        actual = []
-        for j in range(len(mati[0])):
-            actual = mati[i][j]
-            actual.append([actual.real,actual.imag])
-        res.append(actual)
-    return res 
 
-def eigen_val(omega):
-    observable = num.array(omega)
-    (eigen_val,eigenvector) = lin.eig(observable)
-    return [[eigen_val[x].real,eigen_val[x].imag] for x in range(len(eigen_val))], numpy_observables(eigenvector)

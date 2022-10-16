@@ -5,23 +5,36 @@ import math
 
 #OPERACION SUMA 
 #ejemplo entrada 2+5,4+6
-def suma( complexNumber1, complexNumber2 ):
-	answ = [ complexNumber1[ 0 ] + complexNumber2[ 0 ],
-			 complexNumber1[ 1 ] + complexNumber2[ 1 ] ]
-	return answ
-#print(suma((2,3),(5,6)))
+def suma(  num_1, num_2 ):
+	res = [ num_1[ 0 ] + num_2[ 0 ],
+			 num_1[ 1 ] + num_2[ 1 ] ]
+	return res
+
 
 #OPERACION RESTA
-def resta(num1,num2):
-    restareal = num1[0] - num2[0]
-    restaimag = num1[1] - num2[1]
-    return(restareal,restaimag)
+def resta(num_1, num_2):
+	res = [num_1[0]-num_2[0],num_1[1]-num_2[1]]
+
+	return res
+
+def resta_vect(vect1,vect2):
+    tam = len(vect1)
+    if ( tam == len(vect2)): 
+        for x in range(tam):
+                vect1[x] = resta(vect1[x],vect2[x])    
+        return vect1
+
 
 #OPERACION MULTIPLICACION 
-def multi(num1,num2):
-    multi1 = (num1[0] * num2[0]) - (num1[1] * num2[1])
-    multi2 = (num1[0] * num2[1]) + (num1[1] * num2[0])
-    return(multi1,multi2)
+def multi_vectors(num1, num2):
+	answ = [num1[0] * num2[0] - num1[1] * num2[1],num1[1] * num2[0] + num1[0] * num2[1]]
+	return answ
+
+def multi( vect1, vect2 ):
+    cont = [0,0]
+    for c in range( len( vect1) ):
+        cont = suma(cont, multi_vectors(vect1[c] , vect2[c]))
+    return cont
 
 #OPERACION DIVISION
 def div(num1,num2):
@@ -42,7 +55,7 @@ def modulo(num):
 
 #CONJUGADO NUMERO COMPLEJO
 def conjugado(num):
-    conjugado = (num[0], num[1] * -1)
+    conjugado = (num[0], -num[1])
     return conjugado
 
 #REPRESENTACION POLAR A CARTESIANA

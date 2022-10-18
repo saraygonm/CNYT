@@ -47,7 +47,7 @@ Puede descargar una copia del proyecto mediante el linK del repositorio https://
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/275817437_420190140282059_2736001261796355767_n.jpg?stp=dst-jpg_p206x206&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeE-WPhGs4AHjF4_m0zAkFtQQpb7jsrJaEZClvuOysloRiVT6TKpE0m_CvoNVNbnSlIp7g9LN2rObaPZRlqSDhBI&_nc_ohc=1qo6AckTZD4AX-Kol3Y&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS1PAZ9GtDzlCISyuxZAtg88W1-TunIGZHBd4TlxA060g&oe=636F801E)
 
 
-6) Encender el lacer y observar el patrón de interferencia.
+6) Encender el lasér y observar el patrón de interferencia.
 
 
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/310957851_670321934339749_5818717568314943536_n.jpg?stp=dst-jpg_p206x206&_nc_cat=107&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGnJs5A4iwHtKm6sI7U7amlaFq-HVFV9EZoWr4dUVX0Ro-yLYOcfr78RRfl_-3fdYSU9LfEwdU7uqHZRoqpTSWe&_nc_ohc=45awBlotdBsAX-lP--7&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS4QtuCqyCBlpWtaDqUQtz3NqHour9zYerNmL39NjnA3A&oe=636F9D5C)

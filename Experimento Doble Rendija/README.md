@@ -60,7 +60,7 @@ Se debe hacer pasar  un haz de luz proporcionado por  el láser a travez de la d
 
 ![](https://user-images.githubusercontent.com/53798019/76541799-1de71200-6452-11ea-9ea0-272be402f2b5.png)
 
-Esto ocurre debido a que el el electron que viaja en el haz de luz  se lanza y choca con la superficie como una particula, aunque en su trayecto este va superpuesto como una onda, atravesando asi las dos rendijas
+Esto ocurre debido a que el el electron que viaja en el haz de luz  se lanza y choca con la superficie como una particula, aunque en su trayecto va superpuesto como una onda, atravesando asi las dos rendijas
 
 Video del experimento: https://www.youtube.com/watch?v=MWTNRSqo0dA
 

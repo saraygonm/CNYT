@@ -55,7 +55,7 @@ Puede descargar una copia del proyecto mediante el linK del repositorio https://
 
 
 ##### EXPLICACION DEL EXPERIMENTO
-Se debe hacer pasar  un haz de luz proporcionado por  el lasér a travez de la doble renfija (aluminio con aberturasunidas) obteniendo como resultado un patron de interferencia denotado por la matriz: 
+Se debe hacer pasar  un haz de luz proporcionado por  el láser a travez de la doble rendija (aluminio con aberturas unidas) obteniendo como resultado un patrón de interferencia denotado por la matriz: 
 
 
 ![](https://user-images.githubusercontent.com/53798019/76541799-1de71200-6452-11ea-9ea0-272be402f2b5.png)
